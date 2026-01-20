@@ -4,11 +4,15 @@ import torch.nn as nn
 import numpy as np
 import joblib
 
-# Page config
 st.set_page_config(
     page_title="Credit Risk Predictor",
     page_icon="🏦",
-    layout="wide"
+    layout="wide",
+    menu_items={
+        'Get Help': 'https://github.com/yourusername/credit-risk-predictor',
+        'Report a bug': "https://github.com/talhamalikhel/credit-risk-predictor/issues",
+        'About': "Created by **Talha Malikhel**\n\nCredit Risk Prediction System using PyTorch Neural Network"
+    }
 )
 
 # Define the model architecture (same as training)
